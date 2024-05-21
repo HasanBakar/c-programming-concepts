@@ -82,8 +82,148 @@
     |    7      |           ||          |
     |    8      |           =           |
 
+/*
+Author: Abu Bakar
+May 1, 2024
+c programming structure
+*/
 
+```#include<stdio.h> //preprocessor directive
+    int main(){ //main function c program execution start at this point
+    
+        int a;
+        printf("Enter a side for square area calculation: ");
+        scanf("%d", &a);
+        printf("The area of square is %d", a*a);
+        return 0;
+    }
+```
+/* 
+Author: Abu Bakar
+May 16, 2024
+c programming structure
+*/
 
+```#include<stdio.h>
+    int main(){
+    
+    int a = 5*2 - 2*3; // = 10 - 6 = 4
+    
+    int b = 5*2 / 2*3; // = 10 / 2 * 3 = 5 *3 = 15
+    
+    int c = 5* (2/2)*3; // = 5 * 1 * 3 = 15
+    
+    int d = 5 + 2 / 2 * 3; // = 5  + 1 * 3 = 8
+    
+    
+    printf("a is equal= %d\n", a);
+    printf("b is equal= %d\n", b);
+    printf("c is equal= %d\n", c);
+    printf("d is equal= %d\n", d);
+    
+        return 0;
+    }
+```
 
+/*
+Author: Abu Bakar
+May 21, 2024
+c programming structure
+*/
+
+```// Example 01
+    #include<stdio.h>
+    int main(){
+        int a, b, sum=0;
+    
+        // show message for collecting input
+        printf("Enter a number: ");
+        scanf("%d", &a);// collecting and storing number in variable a
+        printf("Enter a number: ");
+        scanf("%d", &b);
+        sum = a + b;
+        printf("Sum of your two numbers = %d", sum);
+        return 0;
+    }
+```
+
+```// Example 02
+    #include<stdio.h>
+    int main(){
+        
+        int number;
+    
+        printf("Enter a number: ");
+        scanf("%d", &number);
+        if(number % 2 != 0 ){
+            printf("NOt Divisible");
+        }
+        else{
+           printf("Divisible"); 
+        }
+        return 0;
+    }
+```
+
+```// Example 03
+
+    #include<stdio.h>
+    int main(){
+        
+        int number;
+    
+        printf("Enter a number: ");
+        scanf("%d", &number);
+        if(number % 2 != 0 ){
+            printf("Odd number");
+        }
+        else{
+           printf("Even number"); 
+        }
+        return 0;
+    }
+```
+
+```// Example 04
+
+      #include<stdio.h>
+      int main(){
+          
+          int number;
+      
+          printf("Enter a number: ");
+          scanf("%d", &number);
+          if(number> 9 && number < 100){
+              printf("Two digit number");
+          }
+          else{
+             printf("Not two digit number"); 
+          }
+          return 0;
+      }
+```
+
+```// Example 05
+    #include<stdio.h>
+    int main(){
+        
+       int a, b, c;
+       float average;
+    
+       printf("Enter first number: ");
+       scanf("%d", &a);
+    
+       printf("Enter second number: ");
+       scanf("%d", &b);
+    
+       printf("Enter third number: ");
+       scanf("%d", &c);
+    
+       average = (a + b +c)/3;
+    
+       printf("Average of 3 number %f", average);
+        return 0;
+    }
+```
 
 
