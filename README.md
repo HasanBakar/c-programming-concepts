@@ -28,3 +28,35 @@
   ** Format Specifier **
   ** Escape Sequence**
   💚 Compilation: A computer program that translates C code into machine code.
+
+
+  ## Chapter 02
+
+### Instructions -> These are statements in a program.
+- Types of Instructions:
+    1. Type Declaration Instructions ___ Declare variable before using it
+    2. Arithmetic Instructions ____ Note: single variable on the LHS
+    3. Control Instructions
+
+    * Type Conversion
+        1. implicit conversion
+        2. explicit conversion
+    * Operator Precedence
+        0. brackets
+        1. *, /, %
+        2. +, -
+        3. =
+        N.B -> Associativity (for same precedence): Left to Right
+### Control Instructions-> used to determine flow of program
+    1. Sequence Control
+    2. Decision Control = if else
+    3. Loop control  = for, while, do ... while 
+    4. Case Control = 
+
+
+ ### *  Operators 
+    -> Operator Precedence 
+        1. *, /, % -> high precendence operator
+        2. +, - -> middle precendence operator
+        3. = low precendence operator
+    -> Associativity law = Left to Right
