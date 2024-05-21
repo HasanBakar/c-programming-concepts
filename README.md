@@ -226,5 +226,8 @@ c programming structure
 ```
 
 ## Chapter 3 - Conditional Statements
+Basically, Conditional Statement are two types
+    1. if, if__else or if___else if___---else
+    2. switch
 
 
