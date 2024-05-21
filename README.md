@@ -53,10 +53,37 @@
     3. Loop control  = for, while, do ... while 
     4. Case Control = 
 
+### 💚Operators 
+    1. Arithmetic Operaors *
+    2. Relational Operators * _____ ==, >, <, <=, >=, !=
+    3. Logical Operaors * ______ &&, ||, !
+    4. Bitwise Operators *^, &, | *
+    5. Assignment Operators *** "=, +=, -=, *=, /=, %="
+    6. Ternary Operators * expree? "express": express*
 
- ### *  Operators 
-    -> Operator Precedence 
+
+ 
+  ###  💚Operator Precedence 
         1. *, /, % -> high precendence operator
         2. +, - -> middle precendence operator
         3. = low precendence operator
-    -> Associativity law = Left to Right
+    ✔ Associativity law = Left to Right
+
+
+### 💚Operators Precendence in different type operators
+    | Priority  | Operator              |
+    |-----------|-----------------------|
+    |    1      |         !             |
+    |    2      |       *, /, %         |    
+    |    3      |       + , -           |    
+    |    4      |       <. <=, >, >=    |
+    |    5      |       ==, !=          |
+    |    6      |           &&          |
+    |    7      |           ||          |
+    |    8      |           =           |
+
+
+
+
+
+
