@@ -29,8 +29,7 @@
   ** Escape Sequence**
   💚 Compilation: A computer program that translates C code into machine code.
 
-
-  ## Chapter 02
+## Chapter 02
 
 ### Instructions -> These are statements in a program.
 - Types of Instructions:
