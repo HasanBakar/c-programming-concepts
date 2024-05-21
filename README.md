@@ -1,6 +1,6 @@
 # c-programming-concepts
 
-## Chapter 01
+## Chapter 1 - Variables, Data types + Input/Output
 
 1. Variables ✔
 2. Keywords ✔
@@ -29,7 +29,7 @@
   ** Escape Sequence**
   💚 Compilation: A computer program that translates C code into machine code.
 
-## Chapter 02
+## Chapter 2 - Instructions & Operators
 
 ### Instructions -> These are statements in a program.
 - Types of Instructions:
@@ -224,5 +224,7 @@ c programming structure
         return 0;
     }
 ```
+
+## Chapter 3 - Conditional Statements
 
 
