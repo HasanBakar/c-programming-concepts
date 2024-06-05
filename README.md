@@ -234,3 +234,30 @@ Basically, Conditional Statement are two types
 
 
 ## Chapter 4 - Loop Control Statements (Iteration & Loop Control Structure 🍕)
+
+/*
+Author: Abu Bakar
+June 5, 2024
+c programming structure
+
+*/
+
+#### Loop Control Instructions
+- 💚 To repeat some parts of the program
+1. for loop
+        for(initialisation; condition; updation){
+            // repeated part of program
+        }
+```# Example 06
+
+#include<stdio.h>
+int main(){
+    
+    for(int i = 0; i < 5; i = i +1){
+        
+        printf("Hello world!\n");
+    }
+    return 0;
+}
+```
+
